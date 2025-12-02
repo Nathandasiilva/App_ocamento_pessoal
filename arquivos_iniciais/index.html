@@ -146,5 +146,69 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="erroGravacao"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-danger">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Erro na Gravação
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Existem campos obrigatorios que não foram preencidos
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Voltar e corrigir
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="sucessoGravacao"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-sucess">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Registro Inserido com sucesso
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">Despesa foi cadastrada com sucesso!</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-sucess" data-dismiss="modal">
+              Voltar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
