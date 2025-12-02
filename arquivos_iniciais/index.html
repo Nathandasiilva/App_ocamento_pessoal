@@ -147,7 +147,8 @@
       </div>
     </div>
 
-    <!-- Modal -->
+    <!--
+    --Modal--
     <div
       class="modal fade"
       id="erroGravacao"
@@ -178,22 +179,20 @@
           </div>
         </div>
       </div>
-    </div>
-
+    </div> 
+-->
     <!-- Modal -->
     <div
       class="modal fade"
-      id="sucessoGravacao"
+      id="modalResgistraDespesa"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header text-sucess">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">
-              Registro Inserido com sucesso
-            </h1>
+          <div id="modal_titulo_div">
+            <h1 class="modal-title fs-5" id="modal_titulo"></h1>
             <button
               type="button"
               class="btn-close"
@@ -201,9 +200,9 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">Despesa foi cadastrada com sucesso!</div>
+          <div class="modal-body" id="modal_conteudo"></div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-sucess" data-dismiss="modal">
+            <button type="button" data-dismiss="modal" id="modal_btn">
               Voltar
             </button>
           </div>
